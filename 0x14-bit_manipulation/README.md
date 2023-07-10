@@ -1,20 +1,20 @@
-## 0x14. c BIT MANIPULATION
+# 0x14. c BIT MANIPULATION
 
 ~Tasks
 
-#0-binary_to_uint.c
+## 0-binary_to_uint.c
 
-#1-print_binary.c
+## 1-print_binary.c
 
-#2-get_bit.c
+## 2-get_bit.c
 
-#3-set_bit.c
+## 3-set_bit.c
 
-#4-clear_bit.c
+## 4-clear_bit.c
 
-#5-flip_bits.c
+## 5-flip_bits.c
 
-#100-get_endianness.c
+## 100-get_endianness.c
 
-#101-password
+## 101-password
 
