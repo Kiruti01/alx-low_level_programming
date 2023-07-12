@@ -230,7 +230,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 	if (e_ident[EI_DATA] == ELFDATA2MSB)
 	{
 		e_entry = ((e_entry << 8) & 0xFF00FF00) |
-			         ((e_entry >> 8) & 0xFF00FF);
+			((e_entry >> 8) & 0xFF00FF);
 		e_entry = (e_entry << 16) | (e_entry >> 16);
 	}
 
@@ -258,7 +258,8 @@ void close_elf(int elf)
 }
 
 /**
- * main - Displays info contained in the ELF header at the start of an ELF file.
+ * main - Displays info contained in the ELF header at 
+ * start of an ELF file.
  * @argc: The number of args supplied to the program.
  * @argv: An array of pnters to the args.
  * Return: 0 on success.
