@@ -124,7 +124,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
  * @key: The key to get value of.
  *
  * Return: If the key cannot be matched - NULL.
- * 	else - the value associated with key in ht.
+ * else - the value associated with key in ht.
  */
 char *shash_table_get(const shash_table_t *ht, const char *key)
 {
